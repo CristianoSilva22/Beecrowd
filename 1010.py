@@ -1,0 +1,5 @@
+c1, q1, v1=input().split(" ")
+c2, q2, v2=input().split(" ")
+q1,q2,v1,v2=int(q1),int(q2),float(v1),float(v2)
+total=(v1*q1)+(v2*q2)
+print("VALOR A PAGAR: R$ {vt:.2f}".format(vt=total))
